@@ -129,7 +129,7 @@
   }
 
   /* PRODUCT CARD */
-  . {
+  .product-card {
     @apply sm:w-[292px] sm:max-w-[292px] w-full flex-1 flex flex-col gap-4 rounded-md;
   }
 

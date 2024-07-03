@@ -54,7 +54,7 @@ try{
     // construct data object with scraped information
     const data={
         url,
-        currency:currency || 'USD',
+        currency:currency || '$',
         image: imageUrls[0],
         title,
         currentPrice:Number(currentPrice) || Number(currentPrice),
@@ -68,7 +68,7 @@ try{
         description,
         lowestPrice:Number(currentPrice) || Number(originalPrice),
         highestPrice:Number(originalPrice) || Number(currentPrice),
-        average:Number(currentPrice) || Number(originalPrice)
+        averagePrice:Number(currentPrice) || Number(originalPrice)
     }
     // console.log(data);
     return data;

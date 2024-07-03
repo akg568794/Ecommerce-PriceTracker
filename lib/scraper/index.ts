@@ -70,7 +70,7 @@ try{
         highestPrice:Number(originalPrice) || Number(currentPrice),
         average:Number(currentPrice) || Number(originalPrice)
     }
-
+    // console.log(data);
     return data;
 }catch(err:any){
     throw new Error(`falied to scrape product: ${err.message}`);
